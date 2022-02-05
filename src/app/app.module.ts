@@ -9,6 +9,8 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import {FormsModule} from '@angular/forms';
+import {CdkTableModule} from '@angular/cdk/table';
+import {CdkAccordionModule} from '@angular/cdk/accordion';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import {FormsModule} from '@angular/forms';
     FlexLayoutModule,
     MatInputModule,
     MatButtonModule,
-    FormsModule
+    FormsModule,
+    CdkTableModule,
+    CdkAccordionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
